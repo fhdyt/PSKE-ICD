@@ -1,0 +1,310 @@
+/* beranda */
+.clientes .content-title {
+    background: #9fc943;
+}
+.concorrentes .content-title {
+    background: #ff454a;
+}
+
+.approve .content-title {
+    background: #DCCA05;
+}
+
+.concorrentes .content-title img,
+.clientes .content-title img,
+.approve .content-title img {
+    display: inline-block;
+    padding: 0px 5px;
+    margin-top: -5px;
+}
+.clientes .content-title span {
+    color: #fff;
+    margin: 0;
+    padding: 10px 0px;
+    font-size: 18px;
+    font-weight: 100;
+    display: inline-block;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 0.5px;
+}
+.approve .content-title span {
+    color: #fff;
+    margin: 0;
+    padding: 10px 0px;
+    font-size: 18px;
+    font-weight: 100;
+    display: inline-block;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 0.5px;
+}
+.concorrentes .content-title span {
+    color: #fff;
+    margin: 0;
+    padding: 10px 0px;
+    font-size: 18px;
+    font-weight: 100;
+    display: inline-block;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 0.5px;
+}
+.concorrentes,
+.clientes,
+.approve {
+    padding: 0;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+.concorrentes {
+    margin-left: 0px;
+}
+.concorrentes .concorrentes-content .line,
+.clientes .clientes-content .line,
+.approve .clientes-content .line {
+    height: 5px;
+}
+.concorrentes .concorrentes-content .line-1 {
+    height: 5px;
+    width: 70%;
+    background: #ff454a;
+    float: left;
+}
+.clientes .clientes-content .line-1 {
+    height: 5px;
+    width: 70%;
+    background: #9fc943;
+    float: left;
+}
+.approve .clientes-content .line-1 {
+    height: 5px;
+    width: 70%;
+    background: #DCCA05;
+    float: left;
+}
+.concorrentes .concorrentes-content .line-2,
+.clientes .clientes-content .line-2,
+.approve .clientes-content .line-2 {
+    height: 5px;
+    width: 30%;
+    background: #2b3b48;
+    float: right;
+}
+.concorrentes .concorrentes-content .number,
+.clientes .clientes-content .number,
+.approve .clientes-content .number {
+    color: #6d767b;
+    font-family: 'Georgia', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 0px;
+}
+.concorrentes .concorrentes-content .number span {
+    color: #ff454a;
+    font-size: 72px;
+}
+.clientes .clientes-content .number span {
+    color: #9dc93e;
+    font-size: 72px;
+}
+.approve .clientes-content .number span {
+    color: #DCCA05;
+    font-size: 72px;
+}
+.concorrentes .concorrentes-content .analysis,
+.clientes .clientes-content .analysis,
+.approve .clientes-content .analysis {
+    padding: 15px 15px 10px;
+    display: inline-block;
+    width: 100%;
+}
+.concorrentes .concorrentes-content .analysis .quote,
+.clientes .clientes-content .analysis .quote,
+.approve .clientes-content .analysis .quote {
+    color: #444444;
+    float: left;
+}
+.concorrentes .concorrentes-content .analysis .see-more,
+.clientes .clientes-content .analysis .see-more,
+.approve .clientes-content .analysis .see-more {
+    width: 25%;
+    color: #444444;
+    float: right;
+}
+.concorrentes .concorrentes-content .analysis .see-more span,
+.clientes .clientes-content .analysis .see-more span,
+.approve .clientes-content .analysis .see-more span {
+    padding: 0px 3px;
+    top: 2px;
+}
+
+
+
+
+/**** SURAT CUTI **/
+.PKBSurat .ttd-surat-cuti td{
+	text-transform: uppercase;
+}
+.PKBSurat .data-personal div{
+	margin-top:15px;
+}
+.PKBSurat .ttd-surat-cuti .propertis td{
+	padding-left:10px;
+}
+.PKBSurat .text-value:hover{
+	color:#6A7367;
+	background:#14598F;
+}
+
+/****** Modal Form untuk Surat Izin/Cuti************/
+.PKBFormForm .modal-dialog{
+	width: 80%;
+}
+
+.PKBFormForm .modal-dialog .modal-content{
+	
+}
+.PKBFormForm .modal-dialog .modal-content .ModalHeader{
+	
+}
+
+.PKBFormForm .modal-dialog .modal-content .modal-body{
+	margin:20px;
+}
+
+.PKBFormForm .modal-dialog .modal-content .modal-body table td{
+	border-color:#686666;
+}
+.PKBFormForm .modal-dialog .modal-content .modal-body table td .hr-dotted{
+  border:none;
+  border-top:1px dotted #767474;
+  color:#fff;
+  background-color:#fff;
+  height:1px;
+}
+
+
+
+/****** Modal Form untuk Surat Izin/Cuti************/
+.PKBForm .modal-dialog{
+	width: 80%;
+}
+
+.PKBForm .modal-dialog .modal-content{
+	
+}
+.PKBForm .modal-dialog .modal-content .ModalHeader{
+	
+}
+
+.PKBForm .modal-dialog .modal-content .modal-body{
+	margin:20px;
+}
+
+.PKBForm .modal-dialog .modal-content .modal-body table td{
+	border-color:#686666;
+}
+.PKBForm .modal-dialog .modal-content .modal-body table td .hr-dotted{
+  border:none;
+  border-top:1px dotted #767474;
+  color:#fff;
+  background-color:#fff;
+  height:1px;
+}
+
+/*CCD MODAL */
+
+.CCDForm .modal-dialog{
+	width: 80%;
+}
+
+.CCDForm .modal-dialog .modal-content{
+	
+}
+.CCDForm .modal-dialog .modal-content .ModalHeader{
+	
+}
+
+.CCDForm .modal-dialog .modal-content .modal-body{
+	margin:20px;
+}
+
+.CCDForm .modal-dialog .modal-content .modal-body table td{
+	border-color:#686666;
+}
+.CCDForm .modal-dialog .modal-content .modal-body table td .hr-dotted{
+  border:none;
+  border-top:1px dotted #767474;
+  color:#fff;
+  background-color:#fff;
+  height:1px;
+}
+/*END CCD MODAL */
+
+
+
+
+
+
+
+
+.datepicker{
+	z-index:100000 !important;
+}
+.table-form{
+	width:100%;
+}
+.tdjudul{
+	padding-top:0;
+	padding-bottom:0;
+
+}
+.notop-border{
+	border-top:0;
+}
+.nobottom-border{
+	border-bottom:0;
+}
+.tdpadding-jd{
+padding-right:6px;
+}
+.input-noborder{
+	border: none;
+    background: transparent;
+    width:auto;
+}
+.td-hrd{
+  background-color:#BFBFBF;
+}
+
+.textareanote {
+	width:100%;
+	box-sizing:border-box;
+	/*direction:rtl;*/
+	display:block;
+	max-width:100%;
+	border-radius:3px;
+	border:1px solid #F7E98D;
+	font:13px Tahoma, cursive;
+	transition:box-shadow 0.5s ease;
+	box-shadow:0 4px 6px rgba(0,0,0,0.1);
+	font-smoothing:subpixel-antialiased;
+	background:linear-gradient(#F9EFAF, #F7E98D);
+	background:-o-linear-gradient(#F9EFAF, #F7E98D);
+	background:-ms-linear-gradient(#F9EFAF, #F7E98D);
+	background:-moz-linear-gradient(#F9EFAF, #F7E98D);
+	background:-webkit-linear-gradient(#F9EFAF, #F7E98D);
+}
+.fontcomment {
+	color:#F9BF55;
+}
+.judul_wo{
+	font-size:20px;
+
+}
+.tdjudul_list{
+	font-weight:bold;
+}
+.noborder{
+	border:none;
+}
+.wo_red{background-color:#FF2D00;}
+.wo_yellow{background-color:#FFF100;}
+.wo_green{background-color:#008000;}
